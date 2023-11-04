@@ -76,6 +76,7 @@ form button {
     font-size: 18px;
     font-weight: 500;
     transition: all 0.4s linear;
+    cursor: pointer;
 }
 
 button:active {
