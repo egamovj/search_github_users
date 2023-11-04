@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Users</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav>
+        <h1>GitHub User Search</h1>
+    </nav>
+
+    <form class="form" id="form">
+        <input type="text" id="searchInput" placeholder="Search by username" required>
+        <button type="submit">Search</button>
+    </form>
+    <div class="loading">
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="notFoundMessage" style="display: none;">Ma'lumot topilmadi.</div>
+    <div class="container" id="usersContainer">
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
